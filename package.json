@@ -1,0 +1,30 @@
+{
+  "name": "apollo-contract",
+  "version": "0.0.1",
+  "description": "Consumer-Driven contract test for graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkuang/apollo-contract.git"
+  },
+  "keywords": [
+    "graphql",
+    "test",
+    "apollo"
+  ],
+  "author": "Zhanhua Kuang <zhanhua.kuang@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zkuang/apollo-contract/issues"
+  },
+  "homepage": "https://github.com/zkuang/apollo-contract#readme",
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.1.5",
+    "apollo-client": "^2.2.0",
+    "apollo-link-http": "^1.3.2",
+    "node-fetch": "^1.7.3"
+  }
+}
